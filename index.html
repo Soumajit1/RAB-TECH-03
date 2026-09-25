@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="logo">Brand.</div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active">Overview</a>
+                <a href="#" class="nav-item">Analytics</a>
+                <a href="#" class="nav-item">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header glass-panel">
+                <h1>Dashboard Overview</h1>
+                <div class="user-profile">
+                    <div class="avatar"></div>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                <!-- Stat Cards -->
+                <div class="card glass-panel stat-card">
+                    <h3>Total Revenue</h3>
+                    <p class="stat-value">$45,231</p>
+                    <span class="trend positive">+12.5%</span>
+                </div>
+                <div class="card glass-panel stat-card">
+                    <h3>Active Users</h3>
+                    <p class="stat-value">2,405</p>
+                    <span class="trend positive">+5.2%</span>
+                </div>
+                <div class="card glass-panel stat-card">
+                    <h3>Bounce Rate</h3>
+                    <p class="stat-value">24%</p>
+                    <span class="trend negative">-2.1%</span>
+                </div>
+
+                <!-- Main Chart Area -->
+                <div class="card glass-panel chart-card">
+                    <h2>Performance Metrics</h2>
+                    <div class="chart-placeholder">
+                        <p>Interactive Chart Area</p>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="card glass-panel activity-card">
+                    <h2>Recent Activity</h2>
+                    <ul class="activity-list">
+                        <li>User setup completed</li>
+                        <li>New API key generated</li>
+                        <li>Database backup finished</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
