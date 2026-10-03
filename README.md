@@ -5,11 +5,7 @@ This repository contains a modern, responsive web application dashboard layout b
 ## Architecture & Implementation Details
 
 1.  **Design Tokens (`:root`)**:
-    *   Centralized management of color palettes, typography scales, spacing variables, and border-radii.
-    *   Includes automatic **Dark/Light Theme** switching via `@media (prefers-color-scheme: dark)`.class Solution {
-public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> result;
+    *   Centralized management of color palettes, typography scales, spacing variables, andThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method
       
         // Define recursive function to generate valid parentheses combinations
         // Parameters:
