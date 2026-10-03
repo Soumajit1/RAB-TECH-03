@@ -87,7 +87,7 @@ public:
             // Try adding an opening parenthesis
             backtrack(openCount + 1, closeCount, currentString + "(");
           
-            // Try adding a closing parenthesis
+            // Try adding a closing parenthesisThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
             backtrack(openCount, closeCount + 1, currentString + ")");
         };
       
