@@ -1,8 +1,12 @@
 # Responsive Design Tokens & Mobile-First CSS Architecture
 
 This repository contains a modern, responsive web application dashboard layout built with vanilla CSS. It demonstrates best practices for mobile-first design, fluid breakpoints, and modern visual aesthetics using native CSS custom properties.
-
-## Architecture & Implementation Details
+1.  **Design Tokens (`:root`)**:
+    *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
+        // - openCount: number of opening parentheses used so farso far
+1.  **Design Tokens (`:root`)**:
+    *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
+        // - openCount: number of opening parentheses used so far
 
 1.  **Design Tokens (`:root`)**:
     *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
