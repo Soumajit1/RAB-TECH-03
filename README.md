@@ -12,8 +12,9 @@ This repository contains a modern, responsive web application dashboard layout b
     *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
         // - openCount: number of opening parentheses used so far
         // - closeCount: number of closing parentheses used so far
-        // - currentString: current parentheses string being built
-        function<void(int, int, string)> backtrack = [&](int openCount, int closeCount, string currentString) {
+1.  **Design Tokens (`:root`)**:
+    *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
+        // - openCount: number of opening parentheses used so farrrentString) {
             // Base case: invalid conditions
             // 1. Too many open parentheses
             // 2. Too many close parentheses  
