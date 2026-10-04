@@ -19,16 +19,10 @@ This repository contains a modern, responsive web application dashboard layout b
             // 1. Too many open parentheses
             // 2. Too many close parentheses  
             // 3. More close parentheses than open (invalid sequence)
-            if (openCount > n || closeCount > n || openCount < closeCount) {
-                return;
-            }
-          
-            // Valid combination found: both counts equal n
-            if (openCount == n && closeCount == n) {
-                result.push_back(currentString);
-                return;
-            }
-          
+            if (openCount > n || closeCount > n || openCount
+1.  **Design Tokens (`:root`)**:
+    *   Centralized management of color palThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
+        // - openCount: number of opening parentheses used so far
             // Try adding an opening parenthesis
             backtrack(openCount + 1, closeCount, currentString + "(");
           
