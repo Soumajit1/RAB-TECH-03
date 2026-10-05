@@ -89,15 +89,7 @@ public:
             backtrack(openCount, closeCount + 1, currentString + ")");
         };
       
-        // Start the recursive generation with empty string and zero counts
-        backtrack(0, 0, "");
-      
-        return result;
-};
-urrentString + ")");
-
-
-        };
+        // Start the recursive generation with empty137096
       
         // Start the recursive generation with empty string and zero counts
         backtrack(0, 0, "");
