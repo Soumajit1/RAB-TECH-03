@@ -42,8 +42,20 @@ public:
         // Define recursive function to generate valid parentheses combinations
         // Parameters:
         // - openCount: number of opening parentheses used so far
-        // - closeCount: number of closing parentheses used so far
-        // - currentString: current parentheses string being built
+        // - closeCount: number of closing parentheses used so farclass Solution:
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        # Base case: if both nodes are null, the trees match here
+        if not p and not q:
+            return True
+        
+        # If one is null or values do not match, they are not the same
+        if not p or not q or p.val != q.val:
+            return False
+        
+        # Recursively check left and right subtrees
+        return (self.isSameTree(p.left, q.left) and 
+                self.isSameTree(p.right, q.right))
+
         function<void(int, int, string)> backtrack = [&](int openCount, int closeCount, string currentString) {
             // Base case: invalid conditions
             // 1. Too many open parentheses
