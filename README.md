@@ -152,14 +152,6 @@ public:
         ListNode* fast = head;
         ListNode* slow = head;
         while (k--) {
-            fast = fast->next;
-        }
-        while (fast->next) {
-            fast = fast->next;
-            slow = slow->next;
-        }
-        ListNode* ans = slow->next;
-        slow->next = nullptr;
         fast->next = head;
         return ans;
     }
