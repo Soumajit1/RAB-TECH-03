@@ -35,12 +35,6 @@ public:
             if (openCount > n || closeCount > n || openCount < closeCount) {
                 return;
             }class Solution {
-public:
-    vector<string> generateParenthesis(int n) {
-        vector<string> result;
-      
-        // Define recursive function to generate valid parentheses combinations
-        // Parameters:
         // - openCount: number of opening parentheses used so far
         // - closeCount: number of closing parentheses used so farclass Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
