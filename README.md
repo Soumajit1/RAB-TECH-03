@@ -198,7 +198,4 @@ class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
         if (p == q) return true;
-        if (!p || !q || p->val != q->val) return false;
-        return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
-    }
-};
+        if (!p || !https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs153?unitId=18&assessmentId=706
