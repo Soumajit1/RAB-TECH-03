@@ -19,9 +19,9 @@ This repository contains a modern, responsive web application dashboard layout b
     *   **Tablet (768px+)**: CSS Grid splits the layout into a fixed 250px sticky sidebar and a 2-column main content grid.
     *   **Desktop (1024px+)**: The grid expands to 3 columns, utilizinclass Solution {
 public:
-    vector<string> generateParenthesis(int n) {
+    vector<string> generateParenthesis(int n) {[
         vector<string> result;
-      
+      ](https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs153?unitId=18&assessmentId=706)
         // Define recursive function to generate valid parentheses combinations
         // Parameters:
         // - openCount: number of opening parentheses used so far
