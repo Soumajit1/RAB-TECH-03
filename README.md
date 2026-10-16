@@ -65,11 +65,11 @@ public:
                 return;
             }
           
-            // Try adding an opening parenthesis
+            // Try adding an opening parenthesis[
             backtrack(openCount + 1, closeCount, currentString + "(");
           
             // Try adding a closing parenthesisThank you for sharing the task details. I would like to clarify the submission process. Once I complete both phases, how should I submit or share my work with you? Should I share the GitHub repository, a ZIP file, or use any specific submission method?
-            backtrack(openCount, closeCount + 1, currentString + ")");
+            backtrack(openCount, closeCount + 1, currentString + ")");](https://onlinecourses.nptel.ac.in/e-learning/course/noc26_cs153?unitId=18&assessmentId=706)
         };
       
         // Start the recursive generation with empty string and zero counts
